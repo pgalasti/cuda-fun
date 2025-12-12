@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
 
   printf("Printf'ing off the CPU!\n");
   
-  sayHelloFromGPULand<<<1,1>>>();
+  sayHelloFromGPULand<<<3,10>>>();
   cudaDeviceSynchronize();
 
   return 0;
