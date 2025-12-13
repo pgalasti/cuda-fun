@@ -1,7 +1,7 @@
 # cuda-fun
 Small CUDA programming repo
 
-###Note
+### Note
 Some exercises may require my [g-lib](https://github.com/pgalasti/g-lib/) library.
 
 Fetch that library and install:
