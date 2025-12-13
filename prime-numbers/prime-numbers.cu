@@ -86,6 +86,9 @@ float checkPrimeNumberGPU(const long long start, const long long max) {
 
   float gpuDuration = 0;
   cudaEventElapsedTime(&gpuDuration, startEvent, stopEvent);
+
+  cudaEventDestroy(startEvent);
+  cudaEventDestroy(stopEvent);
   return gpuDuration;
 }
 
