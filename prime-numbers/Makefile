@@ -1,6 +1,6 @@
 NVCC            := nvcc
 
-NVCC_FLAGS      := -std=c++17 -O2 -lg-lib
+NVCC_FLAGS      := -std=c++17 -lg-lib
 
 TARGET          := program
 
